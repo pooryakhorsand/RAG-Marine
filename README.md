@@ -29,4 +29,4 @@ This framework is designed for **technical and regulatory texts** (e.g., maritim
 git clone https://github.com/pooryakhorsand/RAG-Marine.git
 cd RAG-Marine
 
-Rec 0056.mp4
+
