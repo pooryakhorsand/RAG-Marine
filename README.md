@@ -2,12 +2,12 @@
 ### _A Unified, Explainable Retrieval-Augmented Generation Toolkit_
 
 <p align="center">
-  <video src="https://github.com/pooryakhorsand/RAG-Marine/raw/refs/heads/main/Rec%200056.mp4" width="100%" controls>
+  <video src="https://github.com/user-attachments/assets/d58b9376-bf0c-4434-8a3e-d5a2bd07642e" width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </p>
 
-> 🎥 *Watch the short demo above to see how RAG-Marine builds indices and runs all four retrieval modes (Dense, Sparse, Hybrid, and Hybrid-Rank).*
+> 🎥 *Watch the demo above to see how RAG-Marine builds indices and runs all four retrieval modes (Dense, Sparse, Hybrid, and Hybrid-Rank).*
 
 ---
 
