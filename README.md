@@ -1,17 +1,30 @@
-# RAG-Playground
+# ⚙️ RAG-Marine  
+### _A Unified, Explainable Retrieval-Augmented Generation Toolkit_
 
-A small collection of RAG (Retrieval-Augmented Generation) implementations:
-- Dense (FAISS + embeddings)
-- Sparse (BM25)
-- Hybrid (BM25 + Dense)
-- Rerank (dense retrieval + model-based re-ranking)
+RAG-Marine is a **unified, explainable, and modular RAG framework** that implements four powerful retrieval strategies for high-precision document question answering:
 
-All modules are organized under `src/rag/`. Use `cli.py` to run different modes.
+- 🧠 **Dense Retrieval** — Semantic search using embeddings + FAISS  
+- 🔍 **Sparse Retrieval (BM25)** — Lexical matching for exact terms, IDs, and formulas  
+- ⚡ **Hybrid Retrieval** — Combines dense + sparse scores (late fusion, α = 0.65)  
+- 🎯 **Hybrid-Rank Retrieval** — Hybrid pipeline + Cross-Encoder reranking for top precision  
 
-## Quickstart
+This framework is designed for **technical and regulatory texts** (e.g., maritime classification rules) where **traceability and explainability** matter as much as accuracy.
 
-1. Create a virtualenv and install requirements:
+---
+
+## 🌊 Key Highlights
+
+- 🧩 Modular architecture (`src/rag/`)  
+- 🔎 Explainable outputs (shows rule ID, section, and page for each source)  
+- 🚫 Abstains under low confidence — avoids hallucinated answers  
+- ⚙️ Configurable via environment variables  
+- 🧠 Designed for reproducibility (temperature=0.0)  
+
+---
+
+## 🚀 Quickstart
+
+### 1️⃣ Clone the Repository
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+git clone https://github.com/pooryakhorsand/RAG-Marine.git
+cd RAG-Marine
