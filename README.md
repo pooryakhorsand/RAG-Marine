@@ -2,7 +2,8 @@
 ### _A Unified, Explainable Retrieval-Augmented Generation Toolkit_
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/d58b9376-bf0c-4434-8a3e-d5a2bd07642e" width="100%" controls>
+  <video src="[https://github.com/user-attachments/assets/d58b9376-bf0c-4434-8a3e-d5a2bd07642e](https://github.com/user-attachments/assets/7d4e911d-e31e-4c07-9aba-93227cd2c9f7)
+    " width="100%" controls>
     Your browser does not support the video tag.
   </video>
 </p>
@@ -33,3 +34,4 @@ All components are cleanly organized under `src/rag/` and controlled through a s
 ```bash
 git clone https://github.com/pooryakhorsand/RAG-Marine.git
 cd RAG-Marine
+
